@@ -1,9 +1,9 @@
-=== Plugin Name ===
+=== Write Meow ===
 Contributors: brianhogg
 Tags: write, meow, right, super, troopers
 Requires at least: 4.0
 Tested up to: 6.5
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,9 @@ MEOW.
 1. Fully compatible with The Events Calendar Shortcode Pro
 
 == Changelog ==
+
+= 1.1 =
+* File formatting
 
 = 1.0 =
 * Initial version

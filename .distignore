@@ -1,0 +1,9 @@
+/vendor
+.gitignore
+.distignore
+.gitattributes
+.github
+.git
+composer.json
+composer.lock
+.wordpress-org

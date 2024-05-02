@@ -2,11 +2,11 @@ name: 'Pre-Release Zip Archive Create'
 
 on:
   release:
-    types: [prereleased]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event.release.draft == true
     env:
       plugin_slug: ${{ github.event.repository.name }}
 

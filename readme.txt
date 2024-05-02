@@ -17,7 +17,7 @@ Install and activate it.  Right meow.
 
 Fully compatible with:
 
-* [The Events Calendar Shortcode PRO][tecs]
+* [The Events Calendar Shortcode Pro][tecs]
 * [Event Calendar Newsletter][ecn]
 
 [tecs]: https://eventcalendarnewsletter.com/the-events-calendar-shortcode?utm_source=wordpress.org&utm_medium=link&utm_campaign=wm-readme&utm_content=description

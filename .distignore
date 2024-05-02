@@ -4,6 +4,9 @@
 .gitattributes
 .github
 .git
+/node_modules
 composer.json
 composer.lock
 .wordpress-org
+package.lock
+package.json

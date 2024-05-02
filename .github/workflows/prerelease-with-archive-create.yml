@@ -30,7 +30,7 @@ jobs:
         run: cd ${{ env.plugin_slug }} && composer install --no-dev
 
       - name: Install NPM dependencies
-        run: cd ${{ env.plugin_slug }} && npm run build
+        run: cd ${{ env.plugin_slug }} && npm ci && npm run build
 
       - name: Create Plugin Zip
         run: wp dist-archive ${{ env.plugin_slug }} --filename-format="{name}-{version}.zip"

@@ -33,7 +33,7 @@ jobs:
         run: cd ${{ env.plugin_slug }} && npm ci && npm run build
 
       - name: Create Plugin Zip
-        run: wp dist-archive ${{ env.plugin_slug }} --filename-format="{name}-{version}.zip"
+        run: wp dist-archive ${{ env.plugin_slug }} --filename-format="{name}-{version}"
 
       - name: Save Zip to Release
         uses: xresloader/upload-to-github-release@v1
